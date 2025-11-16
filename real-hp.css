@@ -13,23 +13,23 @@ body {
     max-width: 100%;
     margin: 0 auto;
     /* padding: 0 40px; */
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
     background: white;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     /* position: sticky; */
-    top: 0;
+    /* top: 0; */
     /* z-index: 1000; */
 }
 
 /* Navbar Section */
 .nav-section {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: center;
     padding: 12px 0;
     max-width: 1400px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    /* gap: 20px; */
 }
 
 /* Logo */
@@ -53,7 +53,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #333;
+    color: gray;
     font-size: 20px;
     font-weight: 500;
     padding: 8px 12px;
@@ -136,6 +136,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-left: 5cm;
 }
 
 /* Search Bar */
@@ -147,17 +148,17 @@ body {
 
 .nav-search-bar i {
     position: absolute;
-    left: 12px;
+    right: 12px;
     color: #666;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .nav-search-bar input {
-    padding: 8px 12px 8px 35px;
+    padding: 8px 8px 8px 20px;
     border: 1px solid #ddd;
-    border-radius: 20px;
-    font-size: 13px;
-    width: 200px;
+    font-size: 16px;
+    width: 420px;
+    height: 45px;
     transition: border-color 0.3s ease;
 }
 
@@ -172,7 +173,6 @@ body {
     color: #333;
     cursor: pointer;
     padding: 8px;
-    transition: color 0.3s ease;
 }
 
 .nav-shop-icon:hover {
@@ -228,6 +228,8 @@ body {
     margin: 0 auto;      
     padding: 20px; 
     line-height: 1.6;
+    font-weight: 400;
+    font-family: Forma DJR UI;
 }
 
 .container2
@@ -249,6 +251,8 @@ body {
     border: 1px solid;
     height: 40vh;
     max-height: 40vmax;
+    text-decoration: none;
+    color: black;
 }
 
 .box2 {
@@ -257,6 +261,8 @@ body {
     height: 20%;
     height: 40vh;
     max-height: 40vmax;
+    text-decoration: none;
+    color: black;
 }
 
 .box3 {
@@ -264,6 +270,8 @@ body {
     border: 1px solid;
     height: 40vh;
     max-height: 40vmax;
+    text-decoration: none;
+    color: black;
 }
 
 .backgroud-colour-box1
@@ -381,12 +389,14 @@ body {
     height: fit-content;
     max-height: 100%;
     padding: 20px;
+    padding-bottom: 80px;
     padding-inline: 70px;
 }
 
 .title-box h1
 {
     font-weight: 100;
+    font-size: 36px;
 }
 
 .title-box
@@ -397,7 +407,6 @@ body {
 
 .content-wrapper
 {
-    border: 1px solid;
     height: fit-content;
     max-height: 100%;
     display: flex;
@@ -407,7 +416,6 @@ body {
 .product-finder
 {
     border-right: 1px solid;
-    height: 40vh;
     width: 50%;
 }
 
@@ -479,4 +487,337 @@ body {
 .link-text
 {
     color: #0278ab;
+    list-style: none;
+}
+
+.help-section
+{
+    margin-right: 4cm;
+}
+
+.help-section p
+{
+    margin-bottom: 20px;
+}
+
+.product-list-li
+{
+    line-height: 2.6;
+}
+
+.Aprinter
+{
+    background-image: url(../hp-clone/icons/30-p-finder-printer.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 7px 35px;
+}
+
+.Alaptop
+{
+    background-image: url(../hp-clone/icons/laptop.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 7px 35px;
+}
+
+.Adesktop
+{
+    background-image: url(../hp-clone/icons/Desktop.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 7px 35px;
+}
+
+.Apoly-product
+{
+    background-image: url(../hp-clone/icons/Headset.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 7px 35px;
+}
+
+.Aother
+{
+    background-image: url(../hp-clone/icons/Monitor.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 7px 35px;
+}
+
+.container6
+{
+    border: 1px solid;
+    border-right: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: fit-content;
+    max-height: 100%;
+    padding: 20px;
+    padding-bottom: 80px;
+    padding-inline: 70px;
+}
+
+.enter-a-topic
+{
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.hp-footer {
+    background: #000;
+    color: white;
+    padding: 40px 60px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.hp-region {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    color: white;
+    list-style: none;
+}
+
+.hp-footer hr {
+    border: 0.5px solid white;
+    margin: 18px 0;
+}
+
+.hp-footer-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.list-header
+{
+    margin-bottom: 8px;
+}
+
+.hp-footer-menu ul {
+    list-style: none;
+    padding: 0;
+    line-height: 26px;
+}
+
+.hp-footer-menu li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* SOCIAL ICON */
+.hp-footer-menu .social i {
+    font-size: 22px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+/* BOTTOM INLINE LINKS */
+.hp-footer-links {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.hp-footer-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 4px;
+}
+.hp-footer-links a:hover {
+    text-decoration: underline;
+}
+
+.hp-copy {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.chat-bot
+{
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: none;
+    right: 10px;
+    min-width: 244px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 0;
+    text-decoration: none;
+    outline: 0 !important;
+    transition: background-color .1s ease-in-out;
+}
+
+.chat-bot:hover
+{
+    background-color: #02476b;
+    opacity: 0.9;
+}
+
+.bot-image-container
+{
+    padding-left: 16px;
+}
+
+.bot-image-container img
+{
+    height: 24px;
+    width: 24px;
+}
+
+.bot-text
+{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.feedback-button
+{
+    position: fixed;
+    visibility: hidden;
+    inset: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+    z-index: 2000000002;
+}
+
+.feedback-button button
+{
+    position: fixed;
+    visibility: visible;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    bottom: 217px;
+    right: -1px;
+    width: 35px;
+    transition: 0.5s;
+}
+
+.button-background
+{
+    background: rgb(2, 74, 216);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    writing-mode: vertical-rl;
+    transform: rotateZ(180deg);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.notification-container
+{
+    display: inline-block;
+    align-items: center;
+    position: fixed;
+    width: 100px;
+    overflow: hidden;
+    top: 122px;
+    z-index: 50;
+}
+
+.notification-list
+{
+    position: fixed;
+    top: 72px;
+    bottom: auto;
+    right: 0;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-radius: 1px 0 0 1px;
+    -webkit-border-radius: 1px 0px 0px 1px;
+    -moz-border-radius: 1px 0px 0px 1px;
+    z-index: 999;
+    -webkit-transition: left none !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.bell-icon
+{
+    font-size: 14px;
+    list-style: none;
+}
+
+.bell
+{
+    display: block;
+    color: #165dba !important;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: -1px;
+}
+
+.bell i
+{
+    font-size: 16px;
+}
+
+.notification
+{
+    margin-bottom: 1cm;
+    width: 14px;
+    line-height: 13px;
+    font-size: 11px;
+    height: 13px;
+    background-color: #d7410b;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    text-align: center;
+    bottom: 18px;
+}
+
+.print-icon
+{
+    font-size: 14px;
+    list-style: none;
+}
+
+.print
+{
+    display: block;
+    color: #165dba !important;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: -1px;
+}
+
+.print i
+{
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
 }
